@@ -1,3 +1,18 @@
+# Overview #
+
+A web-based analytics, "quick n dirty" dashboard for visualizing Instagram campaign performance metrics. Users upload CSV files containing post data to generate interactive visualizations and insights.
+
+# Design Discussion #
+
+- Frontend
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
