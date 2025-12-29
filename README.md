@@ -4,7 +4,18 @@ A web-based analytics, "quick n dirty" dashboard for visualizing Instagram campa
 
 # Design Discussion #
 
-- Frontend
+- Frontend-ony architecure
+- Rationale: This project was intentionally designed as a "quick and dirty" solution to solve an immediate need: visualizing Instagram campaign data. A frontend-only approach offered several key advantages for this use case:
+
+1) Rapid development & deployment
+2) Lightweight & faster
+3) Privacy-first approach: user data is never transmitted to any server; csv is parsed in-memory and immediately discarded
+
+This approach means:
+- Zero storage costs
+- Users have complete control over their data
+- Perfect for a quick analysis that doesn't need data persistence
+- Tradeoff: users must re-upload CSV each session (acceptable tradeoff for privacy)
 
 
 
